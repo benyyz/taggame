@@ -1,0 +1,18 @@
+const quotes= [
+    'britney.', 
+    'rihanna', 
+    'JamesMrz', 
+    'MJ', 
+    'Celine'
+    ];
+
+document.write(quotes[2])
+document.write(quotes[3])
+document.write(quotes[4])
+const random = Math.random();
+const randomIndex= Math.floor(random * quotes.length);
+
+
+document.write(randomIndex + ':')
+document.write(quotes[randomIndex])
+

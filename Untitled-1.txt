@@ -1,0 +1,11 @@
+//Check Wins//
+function winCheck()
+{
+for (var i = 0; i < winValues.length; i++)
+{
+if ((scores[whoseTurn] & winValues[i]) == winValues[i]
+{
+alert( player[whoseTurn + "Wins!"])
+}
+}
+}

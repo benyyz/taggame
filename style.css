@@ -1,0 +1,9 @@
+#gallery-data li {
+    display: inline-block;
+    max-width: 400px;
+
+}
+
+li img{
+    max-width: 300%
+}
